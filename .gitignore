@@ -1,0 +1,11 @@
+# Binaries and executables
+*.o
+*.out
+*_app
+day1_app
+
+# Temporary and backup files
+*.save
+*.swp
+*~
+.DS_Store
