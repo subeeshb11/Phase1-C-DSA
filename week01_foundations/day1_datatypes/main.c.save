@@ -1,0 +1,16 @@
+#include <stdio.h>
+
+int main(void) {
+    char c = 'A';
+    int i = 42;
+    float f = 3.14f;
+    double d = 3.1415926535;
+
+    printf("=== DAY 1: DATA TYPES & SIZES ===\n");
+    printf("char:   size = %zu bytes, value = %c\n", sizeof(c), c);
+    printf("int:    size = %zu bytes, value = %d\n", sizeof(i), i);
+    printf("float:  size = %zu bytes, value = %f\n", sizeof(f), f);
+    printf("double: size = %zu bytes, value = %lf\n", sizeof(d), d);
+
+    return 0;
+}
